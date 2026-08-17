@@ -17,21 +17,15 @@
 }
 .nav-links {
   display: flex;
-  /* -webkit-box-pack: justify;  */
+
   justify-content: space-around;
   margin: 0 20px;
-  /* opacity: 0.8; */
 }
 
 .nav-links a {
   color: white;
   text-decoration: none;
   font-size: 14px;
-}
-
-.nav-item li a:hover {
-  color: red;
-  opacity: 1;
 }
 
 .logo img {
@@ -132,24 +126,27 @@
 }
 .appletv img:first-child {
   position: absolute;
-  top: 40px;
+  top: 30px;
   left: 50%;
   transform: translateX(-50%);
+  width: 80px;
 }
 .appletv img:last-child {
   position: absolute;
-  top: 50%;
+
+  top: 230px;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translateX(-50%);
+
   width: 300px;
 }
-.appletv a {
+/* .appletv a {
   position: absolute;
   bottom: 30px;
   left: 50%;
   transform: translateX(-50%);
   font-size: 16px;
-}
+} */
 .airpodspro {
   width: 50%;
   height: 500px;
